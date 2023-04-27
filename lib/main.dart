@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hof_1/home.dart';
 import 'package:hof_1/screens/hotstar_screen.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const HotStarScreen(),
+      home: const Home(),
     );
   }
 }
