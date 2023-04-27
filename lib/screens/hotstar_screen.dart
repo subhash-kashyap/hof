@@ -14,26 +14,26 @@ class HotStarScreen extends StatelessWidget {
         Column(
           children: [
             Row(
-              children: [
+              children: const [
                 SizedBox(
                   width: 130,
-                  height: 100,
+                  height: 50,
                   child: Center(child: Text("Disney")),
                 ),
                 SizedBox(
                   width: 130,
-                  height: 100,
+                  height: 50,
                   child: Center(child: Text("Pixar")),
                 ),
                 SizedBox(
                   width: 130,
-                  height: 100,
+                  height: 50,
                   child: Center(child: Text("Marvel")),
                 ),
               ],
             ),
             Row(
-              children: [
+              children: const [
                 SizedBox(
                   width: 130,
                   height: 100,
@@ -55,7 +55,7 @@ class HotStarScreen extends StatelessWidget {
         ),
         const Text("Watch with your family"),
         Row(
-          children: [
+          children: const [
             SizedBox(
               width: 130,
               height: 100,
@@ -77,7 +77,7 @@ class HotStarScreen extends StatelessWidget {
         const Text("Kids"),
         // Text("Row with 3 Tiles"),
         Row(
-          children: [
+          children: const [
             SizedBox(
               width: 130,
               height: 100,
@@ -98,7 +98,7 @@ class HotStarScreen extends StatelessWidget {
         const Text("Romance"),
         // Text("Row with 3 Tiles"),
         Row(
-          children: [
+          children: const [
             SizedBox(
               width: 130,
               height: 100,
